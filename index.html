@@ -25,13 +25,13 @@
 
     <main>
       <section class="hero" id="inicio">
-        <div class="hero-copy reveal">
+        <div class="hero-copy">
           <p class="eyebrow"><span></span> Taller de bicis &amp; motos</p>
           <h1>Bicis <em>&amp;</em><br />Motos<br /><strong>Gorliz</strong></h1>
           <p class="tagline">Rueda sin fronteras</p>
           <a class="button" href="#contacto">Habla con nosotros <span aria-hidden="true">→</span></a>
         </div>
-        <div class="hero-art reveal" aria-hidden="true">
+        <div class="hero-art" aria-hidden="true">
           <div class="orbit orbit-one"></div>
           <div class="orbit orbit-two"></div>
           <svg class="wheel" viewBox="0 0 400 400">
@@ -50,27 +50,45 @@
       </section>
 
       <section class="services" id="servicios">
-        <div class="section-heading reveal">
+        <div class="section-heading">
           <p class="eyebrow"><span></span> Lo que hacemos</p>
           <h2>Tu máquina,<br /><em>en buenas manos.</em></h2>
         </div>
         <div class="service-list">
-          <article class="service reveal"><span class="number">01</span><h3>Customización</h3><span class="service-icon">✦</span></article>
-          <article class="service reveal"><span class="number">02</span><h3>E-bike</h3><span class="service-icon">⚡</span></article>
-          <article class="service reveal"><span class="number">03</span><h3>Pintura</h3><span class="service-icon">◒</span></article>
-          <article class="service reveal"><span class="number">04</span><h3>Reparación</h3><span class="service-icon">⌁</span></article>
-          <article class="service reveal"><span class="number">05</span><h3>Compra-venta</h3><span class="service-icon">↔</span></article>
-          <article class="service reveal"><span class="number">06</span><h3>ITV</h3><span class="service-icon">✓</span></article>
+          <details class="service">
+            <summary><span class="number">01</span><h3>Customización</h3><span class="service-toggle" aria-hidden="true"></span></summary>
+            <p>Personalizamos tu bici o moto para darle un acabado propio y adaptarla a tu estilo.</p>
+          </details>
+          <details class="service">
+            <summary><span class="number">02</span><h3>E-bike</h3><span class="service-toggle" aria-hidden="true"></span></summary>
+            <p>Revisamos y ponemos a punto los componentes de tu bicicleta eléctrica para que vuelva a rodar correctamente.</p>
+          </details>
+          <details class="service">
+            <summary><span class="number">03</span><h3>Pintura</h3><span class="service-toggle" aria-hidden="true"></span></summary>
+            <p>Renovamos la imagen de tu bici o moto con trabajos de pintura cuidados y ajustados a la pieza.</p>
+          </details>
+          <details class="service">
+            <summary><span class="number">04</span><h3>Reparación</h3><span class="service-toggle" aria-hidden="true"></span></summary>
+            <p>Localizamos la avería y reparamos tu bici o moto para que puedas volver a utilizarla con normalidad.</p>
+          </details>
+          <details class="service">
+            <summary><span class="number">05</span><h3>Compra-venta</h3><span class="service-toggle" aria-hidden="true"></span></summary>
+            <p>Te atendemos si quieres comprar o vender una bici o moto y necesitas orientación durante el proceso.</p>
+          </details>
+          <details class="service">
+            <summary><span class="number">06</span><h3>ITV</h3><span class="service-toggle" aria-hidden="true"></span></summary>
+            <p>Revisamos los puntos principales de tu moto para ayudarte a prepararla antes de acudir a la ITV.</p>
+          </details>
         </div>
       </section>
 
       <section class="workshop" id="taller">
-        <div class="workshop-copy reveal">
+        <div class="workshop-copy">
           <p class="eyebrow light"><span></span> Nuestro espacio</p>
           <h2>Hierro, rueda<br />y <em>carácter.</em></h2>
           <p>Un rincón para mostrar las bicis, motos y trabajos que pasan por el taller.</p>
         </div>
-        <div class="gallery-placeholder reveal" aria-label="Espacio reservado para un futuro carrusel de fotografías">
+        <div class="gallery-placeholder" aria-label="Espacio reservado para un futuro carrusel de fotografías">
           <div class="frame-mark top-left"></div><div class="frame-mark bottom-right"></div>
           <span class="gallery-index">01 / 03</span>
           <div class="gallery-center">
@@ -82,11 +100,11 @@
       </section>
 
       <section class="contact" id="contacto">
-        <div class="contact-title reveal">
+        <div class="contact-title">
           <p class="eyebrow"><span></span> Contacto</p>
           <h2>¿Nos ponemos<br /><em>en marcha?</em></h2>
         </div>
-        <div class="contact-details reveal">
+        <div class="contact-details">
           <div><p class="label">Ven a vernos</p><a href="https://maps.google.com/?q=Armintza+Bidea+10+Gorliz" target="_blank" rel="noreferrer">Armintza Bidea #10<br />Gorliz</a></div>
           <div><p class="label">Llámanos</p><a href="tel:+34624566302">624 566 302</a><a href="tel:+34640836219">640 836 219</a></div>
         </div>
@@ -98,6 +116,5 @@
       <p>Rueda sin fronteras</p>
       <a href="#inicio" aria-label="Volver arriba">↑</a>
     </footer>
-    <script src="script.js"></script>
   </body>
 </html>
